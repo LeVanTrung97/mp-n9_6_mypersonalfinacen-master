@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:background="@color/nen">
+
+    <TableRow
+
+        android:id="@+id/tableRow2"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:id="@+id/nhom_chovay"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="#fff5ee"
+            android:gravity="center"
+
+            android:text="Nợ/Cho vay"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_height="30dp"
+            android:id="@+id/nhom_tieudung"
+            android:layout_weight="1"
+            android:background="#fff5ee"
+            android:gravity="center"
+            android:text="Tiêu dùng"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_height="30dp"
+            android:id="@+id/nhom_thunhap"
+            android:layout_weight="1"
+            android:background="	#fff5ee"
+            android:gravity="center"
+
+            android:text="Thu nhập"
+            android:textColor="#000000" />
+    </TableRow>
+</TableLayout>

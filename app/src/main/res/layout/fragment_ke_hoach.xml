@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.KeHoachFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:background="#00ff7f"
+           android:text="Kế hoạch chi tiêu"
+           android:gravity="center"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="10dp"
+           android:background="#add8e6"
+           />
+       <TextView
+           android:id="@+id/gd_dk"
+           android:layout_marginLeft="9dp"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="Giao dịch định kì                                                                                    >"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="10dp"
+           android:background="#add8e6"
+           />
+       <TextView
+           android:layout_marginLeft="9dp"
+           android:background="#f0f8ff"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="Bao gồm tất cả các giao dịch được thực hiện theo từng tháng,quý hoặc năm.Các giao định cố định"/>
+
+       <TextView
+
+           android:layout_width="match_parent"
+           android:layout_height="10dp"
+           android:background="#add8e6"
+           />
+       <TextView
+           android:layout_marginLeft="9dp"
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:text="Đặt mức báo động chi tiêu                                                                  >"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="10dp"
+           android:background="#add8e6"
+           />
+       <TextView
+           android:layout_marginLeft="9dp"
+           android:background="#f0f8ff"
+           android:layout_width="match_parent"
+           android:layout_height="64dp"
+           android:text="Bạn đưa ra mmotj mức tiền tối đa tiêu trong 1 lhoanrg thời gian nào đó.Nếu tình trạng chi chiêu với tần suất lớn sấp sỉ ngưỡng tối đa.Hệ thống sẽ đưa ra cảnh báo nhắc nhở bạn"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="10dp"
+           android:background="#add8e6"
+           />
+       <TextView
+           android:layout_marginLeft="9dp"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="Hóa đơn                                                                                                  >"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="10dp"
+           android:background="#add8e6"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="33dp"
+           android:layout_marginLeft="9dp"
+           android:background="#f0f8ff"
+           android:text="Theo dõi hóa đơn của bạn như ddiwnj thuế,thuê bao,Internet...">
+
+       </TextView>
+
+   </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragment.TrangChuFragment">
+   <LinearLayout
+android:background="#00ff7f"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+      >
+       <TextView
+           android:layout_marginLeft="16dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="Tổng quan"
+           android:textSize="20sp" />
+       <TextView
+           android:layout_marginLeft="16dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="12 000 000 VNĐ"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#add8e6"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+   <LinearLayout
+
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_marginLeft="16dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Tổng quan"
+           android:textSize="20sp" />
+       <TextView
+           android:layout_marginLeft="16dp"
+           android:layout_marginTop="8dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Bạn có thể ấn vào đây để xem thống kê"/>
+   </LinearLayout>
+    <TextView
+
+        android:background="#add8e6"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        ></TextView>
+    <LinearLayout
+
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/luong"/>
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Thu nhập"/>
+        <TextView
+            android:textColor="	#9400d3"
+            android:text="100 000 đ"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="VND"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/tien"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Chi Tiêu"/>
+        <TextView
+            android:textColor="#7fffd4"
+            android:text="50 000 đ"
+            android:layout_marginLeft="150dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="VND"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/tui_tien"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cho vay"/>
+        <TextView
+            android:textColor="#696969"
+            android:text="200 000 đ"
+            android:layout_marginLeft="150dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="VND"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/tien_lai"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Số dư"/>
+        <TextView
+            android:textColor="#8fbc8f"
+            android:text="90 000 đ"
+            android:layout_marginLeft="150dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="VND"/>
+    </LinearLayout>
+    <TextView
+
+        android:background="#add8e6"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        ></TextView>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/lich" />
+
+        <LinearLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="Thứ hai" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="18/3/2019" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <TextView
+          android:layout_marginTop="15dp"
+          android:layout_marginLeft="145dp"
+          android:layout_width="120dp"
+          android:layout_height="20sp"
+          android:text="100.000 VNĐ"/>
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/an_uong" />
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="Trà sữa" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:text="không có thông tin.." />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="110dp"
+                android:layout_width="120dp"
+                android:layout_height="20sp"
+                android:text="100.000 VNĐ"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>

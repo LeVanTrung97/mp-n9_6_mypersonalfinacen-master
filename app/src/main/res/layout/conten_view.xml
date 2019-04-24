@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/framlayout">
+    <LinearLayout
+        android:background="#00ff7f"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/cn_cancel"
+            android:layout_width="140dp"
+            android:layout_height="68dp"
+            android:text="Trở về"
+            android:gravity="center"/>
+        <TextView
+
+            android:layout_width="140dp"
+            android:layout_height="68dp"
+            android:text="Chọn nhóm"
+            android:textSize="21dp"
+            android:gravity="center"/>
+        <TextView
+
+            android:layout_width="140dp"
+            android:layout_height="68dp"
+            android:text="Hoàn tất"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <include layout="@layout/tablerow">
+    </include>
+
+    <RelativeLayout
+        android:id="@+id/conten_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></RelativeLayout>
+</LinearLayout>

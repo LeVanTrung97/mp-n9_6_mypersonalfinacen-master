@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ"/>
+    <item
+        android:id="@+id/statistic"
+        android:icon="@drawable/ic_pie_chart"
+        android:title="Thống kê"/>
+    <item
+        android:id="@+id/event"
+        android:icon="@drawable/ic_event_note"
+        android:title="Kế hoạch"/>
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more_vert"
+        android:title="Mở rộng"/>
+</menu>
